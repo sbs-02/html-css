@@ -1,5 +1,14 @@
+.main-header{
+  background-color: rgba(16, 152, 173, 0.315);;
+}
+
 h1, h2, h3, h4, p, li{
   font-family: sans-serif;
+  color: #444;
+}
+
+h1, h2, h3{
+  color: #1098ad;
 }
 
 h1{
@@ -64,6 +73,29 @@ li{
   list-style: none;
 }
 
+.tags{
+  font-style: italic;
+  background-color: rgba(16, 152, 173, 0.315);
+  border: 2px dashed #1098ad;
+  border-radius: 10px;
+  border-width: 2px;
+  width: 10%;
+}
+
+.reasons{
+  font-style: italic;
+  background-color: rgba(16, 152, 173, 0.315);
+  border: 2px dashed #1098ad;
+}
+
 .links{
   font-style: italic;
+}
+
+aside{
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  border-left: none;
+  border-right: none;
 }
